@@ -20,7 +20,7 @@
 /* Sections */
 
 .hero {
-	/*background-image: url(../img/hero-banner.jpg);*/
+	/*background-image: url(../img/hero-banner.jpg);
 	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('../img/hero-banner.jpg') no-repeat;
   	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.65))), url('../img/hero-banner.jpg') no-repeat;
   	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('../img/hero-banner.jpg') no-repeat;
@@ -28,18 +28,33 @@
 	background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('../img/hero-banner.jpg') no-repeat;
 	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 10%, rgba(0, 0, 0, 0.2) 60%, rgba(255, 255, 255, 1) 100%), url('../img/hero-banner.jpg') no-repeat;
 	height: 200px;
-	background-size: cover;
+	background-size: cover;*/
 	width: 100%;
 	height: 900px;
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	margin-bottom: 60px;
+	display: table;
+}
+
+img.hero-image {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.heading-container {
+	display: table-cell;
+	vertical-align: middle;
+	position: static;
 }
 
 .heading {
 	display: inline-block;
 	position: relative;
-	top: 30%;
+	bottom: 90px;
 }
 
 h1 {
